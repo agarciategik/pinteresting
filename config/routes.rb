@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   # get 'pages/home'
   root 'pages#home'
   get 'about' => 'pages#about' #creates about_path variable
+  get 'kendo' => 'pages#kendo' #creates kendo_path variable
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
