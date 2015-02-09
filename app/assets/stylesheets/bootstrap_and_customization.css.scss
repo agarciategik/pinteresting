@@ -1,6 +1,18 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+$font-family-sans-serif:  'Roboto';
 $body-bg:  #2980b9;
+$navbar-height: 45px;
 $navbar-inverse-bg:  #e67e22;
 $navbar-inverse-link-color: white;
 $brand-primary:  #2c3e50;
 
 @import 'bootstrap';
+
+.center {
+	text-align: center;
+}
+
+.bold {
+	font-weight: bold;
+}
